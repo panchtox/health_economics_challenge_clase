@@ -1,5 +1,3 @@
-exp/
-
 # ===========================
 # Carpeta de Evaluación (solo para el docente)
 # ===========================
@@ -17,6 +15,20 @@ codigo_base/CONFIG_minimo_dsreducido.yml
 .claude/
 
 # ===========================
+# OUTPUTS - Archivos generados (NO las carpetas)
+# ===========================
+# Ignoramos archivos pesados pero NO los .gitkeep
+outputs/**/*.rds
+outputs/**/*.rda
+outputs/**/*.csv
+outputs/**/*.RData
+outputs/**/*.png
+outputs/**/*.pdf
+
+# NO ignorar los .gitkeep (los necesitamos para que persistan las carpetas)
+!outputs/**/.gitkeep
+
+# ===========================
 # Archivos automáticos de R
 # ===========================
 
@@ -29,8 +41,8 @@ codigo_base/CONFIG_minimo_dsreducido.yml
 # Directorio de usuario de R
 .Rproj.user/
 
-# Archivos de proyecto de RStudio
-*.Rproj
+# Archivos de proyecto de RStudio (opcional: dejamos el .Rproj principal)
+# *.Rproj
 
 # Archivos temporales de R
 *~
