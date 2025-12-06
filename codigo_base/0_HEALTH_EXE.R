@@ -13,7 +13,6 @@ objetos_trans_script <- c("experiment_dir","experiment_lead_dir","carpeta_base",
 
 PARAMS <- yaml.load_file("./codigo_base/CONFIG_basico.yml")
 PARAMS$environment$base_dir <- carpeta_base  # Usar ruta absoluta
-
 # Carpetas de experimento
 experiment_dir <- paste(PARAMS$experiment$experiment_label,PARAMS$experiment$experiment_code,sep = "_")
 experiment_lead_dir <- paste(PARAMS$experiment$experiment_label,PARAMS$experiment$experiment_code,paste0("f",PARAMS$feature_engineering$const$orden_lead),sep = "_")
