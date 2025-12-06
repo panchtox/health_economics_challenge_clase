@@ -7,7 +7,7 @@ library(lubridate)
 
 #################### Definicion Parametros ######################
 library(yaml)
-carpeta_base <- "C:/00_dev/00_playground/04_TEACH/UNO/2025/clases/health_economics_challenge"
+carpeta_base <- getwd()  # En Posit Cloud será /cloud/project
 setwd(carpeta_base)
 objetos_trans_script <- c("experiment_dir","experiment_lead_dir","carpeta_base","objetos_trans_script")
 
