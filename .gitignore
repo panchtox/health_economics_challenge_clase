@@ -1,0 +1,61 @@
+exp/
+
+# ===========================
+# Carpeta de Evaluación (solo para el docente)
+# ===========================
+evaluacion/
+
+# ===========================
+# Archivos de configuración alternativos
+# ===========================
+codigo_base/CONFIG_minimo.yml
+codigo_base/CONFIG_minimo_dsreducido.yml
+
+# ===========================
+# Archivos de Claude Code
+# ===========================
+.claude/
+
+# ===========================
+# Archivos automáticos de R
+# ===========================
+
+# Historial de sesión
+.Rhistory
+
+# Datos de sesión
+.RData
+
+# Directorio de usuario de R
+.Rproj.user/
+
+# Archivos de proyecto de RStudio
+*.Rproj
+
+# Archivos temporales de R
+*~
+.Rapp.history
+
+# Archivos de salida de knitr
+*-concordance.tex
+*.synctex.gz
+
+# OAuth2 tokens
+.httr-oauth
+
+# Archivos de ambiente de R
+.Renviron
+
+# Archivos de traducción
+*.mo
+*.pot
+
+# Archivos de datos temporales de RStudio
+*.Rproj.user
+
+# Archivos de caché
+*_cache/
+/cache
+
+# Archivos de salida de pkgdown
+docs/
